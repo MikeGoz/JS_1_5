@@ -16,10 +16,10 @@ process.stdin.on('readable', function() {
         process.exit();
         break;
       case '/node':
-				process.stdout.write('Node version: '+ version +'\n');
+	process.stdout.write('Node version: '+ version +'\n');
         break;
       case '/system':
-    		OSinfo.print();
+    	OSinfo.print();
         break;
       default:
         process.stderr.write('Wrong instruction!\n');
