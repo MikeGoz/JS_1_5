@@ -10,7 +10,7 @@ function timeFormat(tm) {
   } else if (tm < 3600) {
      return(min + ' min. ' + sec + ' sec.');
   } else {
-    return(hrs + ' hrs. ' + min + ' min. ' + sec + ' sec.');
+     return(hrs + ' hrs. ' + min + ' min. ' + sec + ' sec.');
   }
 }
 exports.print = timeFormat;
